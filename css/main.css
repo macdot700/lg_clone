@@ -1,0 +1,175 @@
+*{padding: 0; margin: 0; font-family: sans-serif;}
+
+/* Header section start */
+
+.header{height: 70px; width: 100%; display: flex; align-items: center;}
+.header .logo img{width: 90px;}
+.header .logo{width: 10%;}
+.header .nav-links{width: 88%;}
+.header a{text-decoration: none;color: black;margin: 5px; padding: 10px;}
+.header .nav-links .row1{display: flex; justify-content: space-between; border-bottom: 0.4px solid lightgray; padding-bottom: 5px;}
+.header .nav-links .row2{display: flex;justify-content: space-between;padding-top: 7px;}
+
+/* Header section End */
+
+/* Slider section start */
+.slider{width: 100%; height: 600px; background-image: url("../img/banner.webp"); background-repeat: no-repeat; background-size: cover;}
+.slider a{text-decoration: none; color: white; background-color: rgba(128, 9, 0, 0.993); padding: 15px; position: absolute; top: 80%; left: 5%;}
+
+/* Slider section end */
+
+/* Section1 begin */
+.section1{display: flex; width: 80%; text-align: center; margin: auto; margin-top: 100px; padding-bottom: 40px;}
+.section1 img{width: 200px;}
+.section1 .col{width: 29%; margin: 20px;border: 1px solid lightgray; border-radius: 20px; padding: 15px;}
+.section1 h1{font-size: 15px; padding: 30px;}
+.section1 p{padding: 15px; color: grey; font-size: 10px;}
+
+/* Section1 end */
+
+/* Complete start */
+.complete{width: 100%; height: 250px; background-image: url("../img/B2B\ Banner-01-01.webp"); background-repeat: no-repeat; background-size: cover;}
+.complete a{text-decoration: none; color: white; background-color: rgba(128, 9, 0, 0.993);padding: 7px; position: relative; top: 45%; left: 45%;}
+
+/* Complete end */
+
+/* Section2 start */
+.section2{display: flex; width: 80%; text-align: center; margin: auto; margin-top: 30px;}
+.section2 img{width: 300px;}
+.section2 .col{width: 29%; margin: 10px;}
+.section2 h1{font-size: 18px;text-align: left; padding-top: 15px;}
+.section2 p{padding-top: 30px; color: gray; text-align: left; font-size: 10px;}
+.section2 a{text-decoration: none; color: grey;}
+/* Section2 end */
+
+/* Section3 start */
+.coli1{display: flex; align-items: center; margin: auto; margin-top: 50px; justify-content: space-around; width: 40%; font-size: 10px;}
+.coli1 a{text-decoration: none; color: black;  border-bottom: 5px; border-color: solid black; padding-bottom: 15px;}
+.section3{display: flex; width: 65%; text-align: center; margin: auto; margin-top: 10px; border-top: 0.5px solid lightgray;}
+.section3 img{width: 120px; padding-top: 30px;}
+.section3 p{font-size: 12px; padding-top: 30px; color: gray;}
+/* Section3 end */
+
+/* Section4 start */
+.section4{width: 96%; display: flex; justify-content: space-around; margin: auto; margin-top: 100px;}
+.section4 .col1{width: 38%; background-image: url(../img/africa-home-block-1-t.webp); height: 650px; background-size: cover; text-align: center;}
+.section4 .col1 h2{color: white; padding-top: 50px;}
+.section4 .col2{width: 58%;}
+.section4 .col2 .img1,.img2{height: 317px;}
+.section4 .col2 h2{padding-top: 20px; padding-left: 20px; color: black;}
+.section4 .col2 .img1{background-image: url(../img/africa-home-block-2-d.webp); margin-bottom: 15px; background-size: cover;}
+.section4 .col2 .img2{background-image: url(../img/africa-home-block-3-d.webp); margin-top: 15px; background-size: cover;}
+
+/* footer-section start */
+.footer-section{width: 90%; margin: auto; display: flex; justify-content: space-between; margin-top: 100px; margin-bottom: 100px;}
+.footer-section h3, h5{color: black; font-size: 12px; padding-bottom: 20px; padding-left: 30px;}
+.footer-section .col1{width: 17%; margin: 1px;}
+.footer-section .col1 ul li{list-style: none; font-size: 12px; color: gray; margin: 10px; padding-left: 10px;}
+.footer-section .v-line{border-left: 1px solid lightgray; padding-left: 10px;}
+/* footer-section end */
+
+/* TV/Audio/Video start */
+.step1{text-align: center; padding: 30px; width: 40%; padding-left: 30%;}
+.step1 p{padding-top: 20px; font-size: 12px;}
+/* step1 end */
+
+/* Step2 start*/
+.step2{background-image: url(../img/Earbuds_Hero_Clean_D.webp); background-repeat: no-repeat; background-size: cover; height: 500px;}
+.step2 h1, h2, h3{color: white; padding-left: 70px;}
+.step2 h2{padding-top: 150px; font-size: 25px; padding-bottom: 20px;}
+.step2 h1{font-size: 40px; padding-bottom: 20px;}
+.step2 a{padding: 20px; text-decoration: none; color: white; background-color: rgba(128, 9, 0, 0.993); position: relative;top: 8%; left: 5%; font-size: 12px;}
+/* Step2 end */
+
+/* Step3 start */
+.step3{display: flex; width: 90%; text-align: center; margin: auto; margin-top: 30px;}
+.step3 img{width: 200px;}
+.step3 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.step3 h1{font-size: 18px; padding: 30px;}
+.step3 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
+/* Step3 end */
+
+/* Step33 start */
+.step33{display: flex; width: 90%; text-align: center; margin: auto; margin-top: 30px;}
+.step33 img{width: 200px;}
+.step33 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.step33 h1{font-size: 18px; padding: 30px;}
+.step33 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
+/* Step33 end */
+
+/* Step4 start */
+.step4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
+.step44 {display: flex; justify-content: space-evenly; text-align: center; padding-bottom: 50px;}
+.step44 img{padding-bottom: 20px;}
+.step44 p{color: white; background-color: rgba(128, 9, 0, 0.993);padding: 10px; font-size: 13px;}
+/* Step44 end */
+
+/* Step5 start */
+.step5{background-image: url(../img/africa-tvaudiovideo-pdp-1-d.webp); background-repeat: no-repeat; background-size: cover; height: 650px; text-align: right; }
+.step5 h2{color: black; padding-top: 250px; padding-right: 130px; font-size: 27px;}
+.step5 h1{font-size: 45px; padding-top: 20px; padding-right: 40px; padding-bottom: 20px;}
+.step5 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; position: relative; right: 32%; width: 100px;}
+/* Step5 end */
+/* Step6 start */
+.step6{background-image: url(../img/africa-tvaudiovideo-pdp-2-d.webp); background-repeat: no-repeat; background-size: cover; height: 500px; text-align: right;}
+.step6 h1{font-size: 40px; color: white; position: relative;right: 6%; padding-top: 160px;padding-bottom: 40px;}
+.step6 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; position: relative; right: 32%; width: 100px;}
+/* Step6 end */
+
+/* Step7 start */
+.step7{background-image: url(../img/africa-tvaudiovideo-pdp-3-d.webp);background-repeat: no-repeat; background-size: cover; height: 500px;}
+.step7 h1{font-size: 40px; color: white; margin: auto; padding-left: 70px; padding-top: 170px; padding-bottom: 30px;}
+.step7 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; width: 100px; position: relative; left: 5%;}
+/* Step7 end */
+
+/* footer-section start */
+.footer-section{width: 90%; margin: auto; display: flex; justify-content: space-between; margin-top: 100px; margin-bottom: 100px;}
+.footer-section h3, h5{color: black; font-size: 12px; padding-bottom: 20px; padding-left: 30px;}
+.footer-section .col1{width: 17%; margin: 1px;}
+.footer-section .col1 ul li{list-style: none; font-size: 12px; color: gray; margin: 10px; padding-left: 10px;}
+.footer-section .v-line{border-left: 1px solid lightgray; padding-left: 10px;}
+/* footer-section end */
+
+/* HOME APPLIANCES start */
+/* home start */
+.home1{text-align: center; padding-top: 50px; padding-bottom: 30px;}
+.home1 h1{font-size: 40px; padding-bottom: 20px;}
+.home2{background-image: url(../img/africa-homeappliances-hero-1-d.jpg); background-repeat: no-repeat; background-size: cover;height: 480px; text-align: right;}
+.home2 h1{font-size: 40px; color: white; padding-top: 160px; padding-right: 200px; padding-bottom: 20px;}
+.home2 h2{font-size: 17px; font-weight: lighter; padding-bottom: 40px; padding-right: 150px;}
+.home2 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; width: 100px; position: relative; right: 34%;}
+/* Home2 end */
+
+/* Home3 start */
+.home3 h1{text-align: center; padding-top: 60px; padding-bottom: 40px;}
+.home33{display: flex; width: 90%; margin: auto; margin-top: 30px; text-align: center;}
+.home33 img{width: 200px;}
+.home33 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.home33 h1{font-size: 18px; padding: 30px;}
+.home33 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
+/* home33 end */
+
+/* home4 start */
+.home4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
+.home44 {display: flex; justify-content: space-evenly; text-align: center; padding-bottom: 50px;}
+.home44 img{padding-bottom: 20px;}
+.home44 p{color: white; background-color: rgba(128, 9, 0, 0.993);padding: 10px; font-size: 13px;}
+/* home44 end */
+/* home5 start */
+.home5{background-image: url(../img/africa-homeappliances-supercategory-5\(1\).jpg); background-repeat: no-repeat; background-size: cover; height: 650px; text-align: right; }
+.home5 h1{color: white; padding-top: 210px; padding-right: 150px; font-size: 40px;}
+.home5 h3{padding-top: 20px; padding-right: 30px; padding-bottom: 20px;}
+.home5 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; position: relative; right: 32%; width: 100px;}
+/* Home5 end */
+/* Home6 start */
+.home6{background-image: url(../img/africa-homeappliances-supercategory-6\(1\).jpg); background-repeat: no-repeat; background-size: cover; height: 650px; text-align: right;}
+.home6 h1{color: white; padding-top: 270px; font-size: 40px; padding-right: 100px; padding-bottom: 40px;}
+.home6 a{text-decoration: none; color: white; background-color: maroon; padding: 17px; font-size: 13px; position: relative; right: 32%; width: 100px;}
+/* Home6 end */
+/* footer-section start */
+.footer-section{width: 90%; margin: auto; display: flex; justify-content: space-between; margin-top: 100px; margin-bottom: 100px;}
+.footer-section h3, h5{color: black; font-size: 12px; padding-bottom: 20px; padding-left: 30px;}
+.footer-section .col1{width: 17%; margin: 1px;}
+.footer-section .col1 ul li{list-style: none; font-size: 12px; color: gray; margin: 10px; padding-left: 10px;}
+.footer-section .v-line{border-left: 1px solid lightgray; padding-left: 10px;}
+/* footer-section end */
