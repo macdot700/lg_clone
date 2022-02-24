@@ -3,12 +3,16 @@
 /* Header section start */
 
 .header{height: 70px; width: 100%; display: flex; align-items: center;}
-.header .logo img{width: 90px;}
+.header .logo img{width: 50px;}
 .header .logo{width: 10%;}
 .header .nav-links{width: 88%;}
 .header a{text-decoration: none;color: black;margin: 5px; padding: 10px;}
 .header .nav-links .row1{display: flex; justify-content: space-between; border-bottom: 0.4px solid lightgray; padding-bottom: 5px;}
 .header .nav-links .row2{display: flex;justify-content: space-between;padding-top: 7px;}
+.header .nav-links .row2 img{width: 20px;}
+.header .nav-links .row2-mobile{display: none;}
+.header .mobile-icon{display: none;}
+.header .row1-mobile{display: none;}
 
 /* Header section End */
 
@@ -19,11 +23,11 @@
 /* Slider section end */
 
 /* Section1 begin */
-.section1{display: flex; width: 80%; text-align: center; margin: auto; margin-top: 100px; padding-bottom: 40px;}
-.section1 img{width: 200px;}
-.section1 .col{width: 29%; margin: 20px;border: 1px solid lightgray; border-radius: 20px; padding: 15px;}
-.section1 h1{font-size: 15px; padding: 30px;}
-.section1 p{padding: 15px; color: grey; font-size: 10px;}
+.section1{width: 90%; margin: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px;padding-top: 50px; padding-bottom: 40px; text-align: center;}
+.section1 img{width: 220px;}
+.section1 .col{height: 400px; border: 1px solid lightgray; border-radius: 20px;}
+.section1 h1{font-size: 18px; padding: 30px;}
+.section1 p{padding: 15px; color: grey; font-size: 12px;}
 
 /* Section1 end */
 
@@ -34,18 +38,18 @@
 /* Complete end */
 
 /* Section2 start */
-.section2{display: flex; width: 80%; text-align: center; margin: auto; margin-top: 30px;}
+.section2{width: 90%; margin: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;padding-top: 50px; padding-bottom: 20px; text-align: left;}
 .section2 img{width: 300px;}
-.section2 .col{width: 29%; margin: 10px;}
+.section2 .col{height: 350px; margin: 10px;}
 .section2 h1{font-size: 18px;text-align: left; padding-top: 15px;}
 .section2 p{padding-top: 30px; color: gray; text-align: left; font-size: 10px;}
 .section2 a{text-decoration: none; color: grey;}
 /* Section2 end */
 
 /* Section3 start */
-.coli1{display: flex; align-items: center; margin: auto; margin-top: 50px; justify-content: space-around; width: 40%; font-size: 10px;}
+.coli1{display: flex;  margin: auto; margin-top: 50px; justify-content: space-around; width: 70%; font-size: 10px;}
 .coli1 a{text-decoration: none; color: black;  border-bottom: 5px; border-color: solid black; padding-bottom: 15px;}
-.section3{display: flex; width: 65%; text-align: center; margin: auto; margin-top: 10px; border-top: 0.5px solid lightgray;}
+.section3{width: 80%; margin: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));gap: 20px; text-align: center; border-top: 0.5px solid lightgray;}
 .section3 img{width: 120px; padding-top: 30px;}
 .section3 p{font-size: 12px; padding-top: 30px; color: gray;}
 /* Section3 end */
@@ -69,6 +73,9 @@
 /* footer-section end */
 
 /* TV/Audio/Video start */
+.header .nav-links .row2-mobile{display: none;}
+.header .mobile-icon{display: none;}
+.header .row1-mobile{display: none;}
 .step1{text-align: center; padding: 30px; width: 40%; padding-left: 30%;}
 .step1 p{padding-top: 20px; font-size: 12px;}
 /* step1 end */
@@ -82,24 +89,24 @@
 /* Step2 end */
 
 /* Step3 start */
-.step3{display: flex; width: 90%; text-align: center; margin: auto; margin-top: 30px;}
+.step3{width: 90%; margin: auto; padding-top: 30px; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; text-align: center;}
 .step3 img{width: 200px;}
-.step3 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.step3 .col{height: 400px; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
 .step3 h1{font-size: 18px; padding: 30px;}
 .step3 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
 /* Step3 end */
 
 /* Step33 start */
-.step33{display: flex; width: 90%; text-align: center; margin: auto; margin-top: 30px;}
+.step33{width: 90%; margin: auto; padding-top: 30px; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; text-align: center;}
 .step33 img{width: 200px;}
-.step33 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.step33 .col{height: 400px; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
 .step33 h1{font-size: 18px; padding: 30px;}
 .step33 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
 /* Step33 end */
 
 /* Step4 start */
 .step4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
-.step44 {display: flex; justify-content: space-evenly; text-align: center; padding-bottom: 50px;}
+.step44{width: 95%; margin: auto;display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; text-align: center; padding-bottom: 30px;}
 .step44 img{padding-bottom: 20px;}
 .step44 p{color: white; background-color: rgba(128, 9, 0, 0.993);padding: 10px; font-size: 13px;}
 /* Step44 end */
@@ -132,6 +139,9 @@
 
 /* HOME APPLIANCES start */
 /* home start */
+.header .nav-links .row2-mobile{display: none;}
+.header .mobile-icon{display: none;}
+.header .row1-mobile{display: none;}
 .home1{text-align: center; padding-top: 50px; padding-bottom: 30px;}
 .home1 h1{font-size: 40px; padding-bottom: 20px;}
 .home2{background-image: url(../img/africa-homeappliances-hero-1-d.jpg); background-repeat: no-repeat; background-size: cover;height: 480px; text-align: right;}
@@ -142,16 +152,16 @@
 
 /* Home3 start */
 .home3 h1{text-align: center; padding-top: 60px; padding-bottom: 40px;}
-.home33{display: flex; width: 90%; margin: auto; margin-top: 30px; text-align: center;}
+.home33{width: 90%; margin: auto; padding-top: 30px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; text-align: center;}
 .home33 img{width: 200px;}
-.home33 .col{width: 25%; margin: 10px; border: 1px solid lightgray; border-radius: 20px;}
+.home33 .col{height: 400px; margin: 10px; border: 1px solid lightgray; border-radius: 20px;} 
 .home33 h1{font-size: 18px; padding: 30px;}
 .home33 p{padding-top: 30px; color: gray; font-size: 15px; padding-bottom: 40px;}
-/* home33 end */
+/* home33 end
 
 /* home4 start */
 .home4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
-.home44 {display: flex; justify-content: space-evenly; text-align: center; padding-bottom: 50px;}
+.home44{width: 95%; margin: auto;display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; text-align: center; padding-bottom: 30px;}
 .home44 img{padding-bottom: 20px;}
 .home44 p{color: white; background-color: rgba(128, 9, 0, 0.993);padding: 10px; font-size: 13px;}
 /* home44 end */
@@ -173,3 +183,104 @@
 .footer-section .col1 ul li{list-style: none; font-size: 12px; color: gray; margin: 10px; padding-left: 10px;}
 .footer-section .v-line{border-left: 1px solid lightgray; padding-left: 10px;}
 /* footer-section end */
+
+/* CSS FOR MOBILE VERSION */
+/* Index page */
+@media (max-width:1050px) {
+    .header .nav-links{width: 90%;}
+    .header a{font-size: 10px;}   }
+
+@media (max-width:800px) {
+    .header .nav-links{width: 90%;}
+    .header .nav-links .row2-mobile{display: flex;justify-content: space-between;padding-top: 7px;}
+    .header .nav-links .row2-mobile img{width: 20px;}
+    .header .nav-links .row2{display: none;}
+    .slider{background-size: contain;height: 400px;}
+    .slider a{padding: 15px; position: absolute; top: 65%; left: 10%;}
+    .complete{background-size: contain; height: 200px;}
+    .complete a{left: 42%;}}
+
+    @media (max-width:485px) {
+    .header .logo{width: 140px;}
+    .header .nav-links{display: none;}
+    .header{justify-content: space-between; width: 100%;}
+    .header .mobile-icon{display: block}
+    .header .mobile-icon img{width: 20px;}
+    .slider{background-size: contain;height: 300px;}
+    .slider a{padding: 5px; position: absolute; top: 45%; left: 10%; font-size: 10px;}
+    .section1{display: block;margin-top: 20px;}
+    .section1 img{width: 200px;}
+    .complete a{padding: 5px; position: relative; top: 30%; left: 35%; font-size: 10px;}
+    .section2{margin-top: 0.5px}
+    .section2 img{width: 350px;}
+    .section4{display: block;}
+    .section4 .col1{width: 100%; text-align: center; height: 600px;}
+    .section4 .col2{width: 100%;}
+    .section4 .col2 .img1,.img2{height: 317px;}
+    .footer-section{width: 100%; display: block; text-align: left;}  }
+
+    /* Index page end */
+
+    /* TV_Audio page */
+
+    @media (max-width:1050px) {
+        .header .nav-links{width: 90%;}
+        .header a{font-size: 10px;}   }
+    
+    @media (max-width:800px) {
+        .header .nav-links{width: 90%;}
+        .header .nav-links .row2-mobile{display: flex;justify-content: space-between;padding-top: 7px;}
+        .header .nav-links .row2-mobile img{width: 20px;}
+        .header .nav-links .row2{display: none;}
+        .step2{width: 100%; background-size: contain;}
+        .step2 h2{padding-top: 80px; font-size: 20px; padding-bottom: 20px;}
+        .step2 a{padding: 15px; font-size: 10px;}}
+        
+        @media (max-width:485px) {
+        .header .logo{width: 140px;}
+        .step2{width: 100%; background-size: contain; height: 200px;}
+        .step2 h2{padding-top: 30px; font-size: 13px; padding-bottom: 10px;}
+        .step2 h1{font-size: 20px; padding-bottom: 0.5px;}
+        .step2 a{padding: 10px; font-size: 10px;position: relative;top: 5%; left: 15%;}
+        .step4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
+        .step4 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}
+        .step5{width: 100%; background-size: 420px;height: 400px; text-align: left;padding-bottom: 10px;}
+        .step5 h2{font-size: 15px; font-weight: lighter;padding-right: 50px;}
+        .step5 h1{font-size: 22px;font-weight: lighter; padding-top: 20px; padding-left: 65px; padding-bottom: 20px;}
+        .step5 a{padding: 10px; font-size: 10px; position: relative; left: 15%; width: 100px;}
+        .step6{width: 100%; height: 450px; background-size: 730px;}
+        .step6 h1{font-size: 20px;color: black; padding-top: 300px;position: relative;right: 40%;}
+        .step6 a{padding: 10px; font-size: 10px; position: relative; right: 70%;}
+        .step7{width: 100%; background-size: 420px; height: 270px;}
+        .step7 h1{font-size: 30px; color: black; margin: auto; padding-left: 20px; padding-top: 170px; padding-bottom: 30px;}
+        .step7 a{padding: 10px; font-size: 10px; position: relative; left: 5%;} }
+
+        /* TV_Audio page end */
+
+        /* Home_appliances page */
+        @media (max-width:1050px) {
+            .header .nav-links{width: 90%;}
+            .header a{font-size: 10px;}   }
+
+        @media (max-width:800px) {
+                .header .nav-links{width: 90%;}
+                .header .nav-links .row2-mobile{display: flex;justify-content: space-between;padding-top: 7px;}
+                .header .nav-links .row2-mobile img{width: 20px;}
+                .header .nav-links .row2{display: none;}
+                .home2{width: 100%;background-size: 800px;height: 300px;}
+                .home2 h1{font-size: 27px;text-align: right; padding-top: 70px; padding-bottom: 5px; padding-left: 0.5px;}
+                .home2 h2{padding-top: 5px; font-size: 13px; padding-bottom: 20px;}
+                .home2 a{padding: 10px; font-size: 10px;}
+                .home3 h1{text-align: center; padding-top: 40px; padding-bottom: 40px;}}
+
+        @media (max-width:485px) {
+                .home2{width: 100%; background-size: cover top; height: 300px;}
+                .home5{background-size: 650px; height: 570px; text-align: left; }
+                .home5 h1{color: black; padding-top: 350px; padding-left: 20px; font-size: 25px;}
+                .home5 h3{padding-top: 20px;padding-left: 20px; padding-bottom: 20px; color: black; font-size: 15px; font-weight: lighter;}
+                .home5 a{padding: 10px; font-size: 10px; position: relative; left:5%;}
+                .home6{background-size: 650px; height:430px; text-align: left;}
+                .home6 h1{color: black; padding-top: 370px; font-size: 25px; padding-left: 20px; padding-bottom: 20px;}
+                .home6 a{padding: 10px; font-size: 10px; position: relative; left: 5%;}}
+
+        /* Home_appliances page end */
